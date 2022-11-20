@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/breakingNewsFragment2"
-        android:name="com.example.foulynewsapp.ui.fragments.BreakingNewsFragment"
+        android:name="com.example.kotlin_newsapp.ui.fragments.BreakingNewsFragment"
         android:label="Breaking News" >
         <action
             android:id="@+id/action_breakingNewsFragment2_to_articleFragment"
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/savedNewsFragment2"
-        android:name="com.example.foulynewsapp.ui.fragments.SavedNewsFragment"
+        android:name="com.example.kotlin_newsapp.ui.fragments.SavedNewsFragment"
         android:label="Saved News" >
         <action
             android:id="@+id/action_savedNewsFragment2_to_articleFragment"
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchNewsFragment2"
-        android:name="com.example.foulynewsapp.ui.fragments.SearchNewsFragment"
+        android:name="com.example.kotlin_newsapp.ui.fragments.SearchNewsFragment"
         android:label="Search News" >
         <action
             android:id="@+id/action_searchNewsFragment2_to_articleFragment"
@@ -45,6 +45,6 @@
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
-        android:name="com.example.foulynewsapp.ui.fragments.ArticleFragment"
+        android:name="com.example.kotlin_newsapp.ui.fragments.ArticleFragment"
         android:label="ArticleFragment" />
 </navigation>
