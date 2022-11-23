@@ -39,7 +39,6 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
     }
 
     private fun setUpRecyclerView() {
-
         adapt = NewsAdapter()
         binding.rvBreakingNews.apply {
             adapter = adapt
@@ -49,7 +48,6 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
             if (response != null) {
                 adapt.differ.submitList(response.articles)
             }
-
         }
     }
 

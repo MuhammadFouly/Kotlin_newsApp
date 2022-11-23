@@ -1,7 +1,6 @@
 package com.example.kotlin_newsapp.ui
 
 import android.os.Bundle
-
 import android.util.Log
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
