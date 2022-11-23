@@ -2,6 +2,8 @@ package com.example.kotlin_newsapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.activity.viewModels
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -13,11 +15,13 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class NewsActivity : AppCompatActivity() {
     lateinit var binding: ActivityNewsBinding
+    private val viewmodel:NewsViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding= ActivityNewsBinding.inflate(layoutInflater)
         setContentView(binding.root)
         connectBottomNavBarWithFragments()
+
     }
 
     fun connectBottomNavBarWithFragments(){
