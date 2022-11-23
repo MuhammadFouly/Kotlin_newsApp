@@ -1,4 +1,4 @@
-package com.example.foulynewsapp.models
+package com.example.kotlin_newsapp.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

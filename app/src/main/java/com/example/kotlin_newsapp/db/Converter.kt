@@ -1,15 +1,15 @@
-package com.example.foulynewsapp.db
+package com.example.kotlin_newsapp.db
 
 import androidx.room.TypeConverter
-import com.example.foulynewsapp.models.Source
+import com.example.kotlin_newsapp.models.Source
 
 class Converter {
     @TypeConverter
-    fun fromSourceToString(source:Source):String{
-       return source.name
+    fun fromSourceToString(source: Source):String{
+        return source.name
     }
     @TypeConverter
-    fun fromStringToSource(name:String):Source{
+    fun fromStringToSource(name:String): Source {
         return Source(name, name)
     }
 }
