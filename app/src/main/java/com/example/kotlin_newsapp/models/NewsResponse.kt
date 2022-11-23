@@ -1,9 +1,7 @@
-package com.example.foulynewsapp.models
+package com.example.kotlin_newsapp.models
 
-import com.example.foulynewsapp.models.Article
-
-data class newsResponse(
+data class NewsResponse(
     val articles: List<Article>,
     val status: String,
-    val totalResults: Int
+    val totalResults: Int,
 )
